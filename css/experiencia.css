@@ -1,0 +1,81 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+img{
+   width: 50rem;
+   height: auto;
+}
+header {
+    text-align: center;
+}
+
+Header .enlace{
+    display: flex;
+    justify-content: space-around;
+}
+Header .enlace a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+
+
+}
+Header .enlace a:hover{
+    background-color: yellow;
+    color: black;
+
+}
+#container {
+    text-align: center;
+    padding: 2rem;
+}
+  *{
+    background-color: #c4dfe9;
+  }
+
+  header section nav{
+    background-color: #0078bd;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    border-color: black;
+    align-items: center;
+    justify-content: space-around;
+  }
+  main div h3{
+    font-size: large;
+    font-weight: bold;
+  }
+  .segundo{
+    padding-top: 2rem;
+  }
+  #linkedin{
+    width: 5rem;
+    padding-top: 0.5rem;
+}
+#github{
+    width: 4rem;
+    padding-top: 1rem;
+}
+footer{
+  padding-top: 25rem;  }
+    footer div{
+      background-color: white;
+  
+    }
+    footer div nav {
+      padding: 0.001rem;
+      background-color: #b0c4de;
+      display: flex;
+      justify-content:center;
+  }
+  footer div nav img{
+      background-color:#b0c4de;
+      padding-right: 5rem;
+  }

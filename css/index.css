@@ -1,0 +1,106 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+img{
+   width: 50rem;
+   height: auto;
+}
+header {
+    text-align: center;
+}
+
+Header .enlace{
+    display: flex;
+    justify-content: space-around;
+}
+Header .enlace a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+
+
+}
+Header .enlace a:hover{
+    background-color: yellow;
+    color: black;
+
+}
+    
+#container {
+    text-align: center;
+    padding: 2rem;
+}
+
+
+
+  *{
+    background-color: #c4dfe9;
+  }
+
+  header section nav{
+    background-color: #0078bd;
+  }
+  footer{
+padding-top: 25rem;  }
+  footer div{
+    background-color: white;
+
+  }
+  footer div nav {
+    padding: 0.001rem;
+    background-color: #b0c4de;
+    display: flex;
+    justify-content:center;
+}
+footer div nav img{
+    background-color:#b0c4de;
+    padding-right: 5rem;
+}
+  main {
+    text-align: inherit;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .container {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
+  }
+  
+  .container img {
+    margin-right: 10px; /* Opcional: Agrega espacio entre la imagen y el texto */
+    padding: 5rem;
+    border-radius: 20%;
+    box-shadow: #0078bd;
+  }
+
+  @media only screen and (max-width: 620px) {
+
+  }
+  main div{
+    padding-top: 5rem;
+  }
+  main p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5    ;
+  }
+  .destacado {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+  }
+  #linkedin{
+    width: 5rem;
+    padding-top: 0.5rem;
+}
+#github{
+    width: 4rem;
+    padding-top: 1rem;
+}
+header a{
+  text-decoration: none;
+}
+
